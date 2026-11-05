@@ -1,10 +1,11 @@
 #include <WiFi.h>
 #include "spilcd.h"
 #include "xl9555.h"
+#include "wifi_config.h"
 
-// WiFi配置
-const char* ssid = "aaa";
-const char* password = "12345678";
+// 复制 wifi_config.example.h 为 wifi_config.h，并填写自己的 WiFi 配置。
+const char* ssid = WIFI_SSID;
+const char* password = WIFI_PASSWORD;
 
 // LCD配置
 #define REFRESH_INTERVAL 5000  // 5秒刷新间隔

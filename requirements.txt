@@ -1,0 +1,8 @@
+# 本次软件复核使用的直接依赖版本；不是完整的传递依赖锁文件。
+numpy==2.0.2
+pandas==2.2.3
+matplotlib==3.9.4
+scipy==1.13.1
+PyQt5==5.15.11
+openpyxl==3.1.5
+pyserial==3.5
