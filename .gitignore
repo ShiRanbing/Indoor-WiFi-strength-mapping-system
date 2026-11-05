@@ -1,0 +1,28 @@
+# Python 环境与缓存
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# 编辑器与系统文件
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+~$*
+
+# 本机网络配置、实测记录与导出文件
+wifi_config.h
+wifi_data_analysis.csv
+captures/
+exports/
+
+# 编译和打包产物
+build/
+dist/
+*.spec
+*.exe
+*.elf
+*.bin
+*.hex
